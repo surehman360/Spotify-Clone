@@ -48,18 +48,52 @@ nav ul li{
 }
 
 .container{
-    min-height: 73vh;
+    min-height: 70vh;
     background-color: black;
     color: white;
     font-family: "Varela Round";
     display: flex;
     margin: 23px auto;
-    width: 70%;
+    width: 65%;
     border-radius: 15px;
-    padding: 10px 10px;
-    background-image: url('icons8-team-7LNatQYMzm4-unsplash\ \(1\).jpg');
+    padding: 25px 25px;
+    background-image: url('tree-736885_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: 1400px 850px;
+    
      
 
+}
+.songItemContainer{
+    margin-top: 75px;
+}
+
+.songItem{
+height: 50px;
+display: flex;
+background-color: white;
+color: black;
+margin: 12px 12px;
+justify-content: space-between;
+align-items: center;
+border-radius: 34px;
+
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 12px;
+    border-radius: 34px;
+
+}
+
+.timeStamp{
+    margin: 23px;
+
+}
+
+.timeStamp i{
+    cursor: pointer;
 }
 
 .bottom{
@@ -73,6 +107,10 @@ nav ul li{
     flex-direction: column;
     align-items: center;
     
+}
+.songInfo{
+    position:absolute;
+    left: 0;
 }
 .icons{
     margin-top: 14px;
