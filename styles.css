@@ -131,6 +131,7 @@ border-radius: 34px;
 
 #Progress{
     width: 80vw;
+    cursor:pointer;
 }
 
 
