@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
 
 body{
-    background-color: antiquewhite;
+    background-color: black;
 }
 
 
@@ -110,7 +110,16 @@ border-radius: 34px;
 }
 .songInfo{
     position:absolute;
-    left: 0;
+    left: 9.5vw;
+    font-family: "Vareala Round", sans-serif;
+    
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+    width:110px;
+    
 }
 .icons{
     margin-top: 14px;
@@ -122,6 +131,7 @@ border-radius: 34px;
 
 #Progress{
     width: 80vw;
+    cursor:pointer;
 }
 
 
